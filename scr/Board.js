@@ -1,7 +1,6 @@
 var Board = function(){
   let board = this;
   this.size = Math.floor(Math.max(canvas.width,canvas.height) / _Square_size );
-  console.log("This size:" + this.size)
 
   let squares=new Array(this.size);
 
@@ -35,7 +34,6 @@ var Board = function(){
       if (i >= 0 && i < board.size&& j >=0 && j < board.size){
         //console.log('[0]')
         if (squares[i][j].pathValue==0 && squares[i][j].color == color){
-          console.log('!!!')
           squares[i][j].pathValue=1;
           return true;
         }
