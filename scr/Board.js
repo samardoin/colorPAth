@@ -68,5 +68,5 @@ var Board = function(){
         }
       }
     }while (addition==true);
-  }
+  };this.path(squares[0][0].color);
 }
