@@ -1,2 +1,2 @@
 # colorPath
-https://samardoin.github.io/colorPAth/
+https://samardoin.github.io/colorPath/
